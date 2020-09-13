@@ -36,13 +36,13 @@ public class Ball {
 }
 
 import java.lang.*;
-    public class TestBall {
-        public static void main(String[] args) {
-            Ball d1 = new Ball("Football", 4);
-            Ball d2 = new Ball("Basketball", 7);
-            Ball d3 = new Ball("Volleyball", 5);
-            d3.setSize(1);
-            System.out.println(d1);
-        }
+ public class TestBall {
+ public static void main(String[] args) {
+ Ball d1 = new Ball("Football", 4);
+ Ball d2 = new Ball("Basketball", 7);
+ Ball d3 = new Ball("Volleyball", 5);
+ d3.setSize(1);
+ System.out.println(d1);
+ }
 
-    }
+}
